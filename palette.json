@@ -12,7 +12,7 @@
   "line-number": "45415C",
   "line-number-active": "A19DB8",
 
-  "lavender": "B58BE4",
+  "lavender": "C794F9",
   "blue": "60BFFB",
   "turquoise": "37E6C3",
   "periwinkle": "AFB8F4",
@@ -29,5 +29,17 @@
   "punct": "8C88A6",
   "comment": "77729A",
   "comment-ref": "9590B8",
-  "tag-key": "9B8CC4"
+  "tag-key": "938FB0",
+
+  "accent-30": "2B1B3F",
+  "accent-40": "3A2358",
+  "accent-50": "492A71",
+  "accent-60": "552E89",
+  "accent-70": "6B2FB9",
+  "accent-80": "8138E1",
+
+  "ident-write": "43293D",
+  "search": "574711",
+  "guide-active": "4A4463",
+  "blue-dim": "3A7FB0"
 }

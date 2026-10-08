@@ -28,7 +28,7 @@ try {
         $entryName = $_.FullName.Substring($src.Length + 1).Replace('\', '/')
         $entry = $zip.CreateEntry($entryName)
         $stream = $entry.Open()
-        if ($_.Extension -in '.xml', '.json') {
+        if ($_.Extension -in '.xml', '.json', '.svg') {
             $bytes = [System.Text.UTF8Encoding]::new($false).GetBytes((Expand-Palette (Get-Content $_.FullName -Raw) $entryName))
         } else {
             $bytes = [System.IO.File]::ReadAllBytes($_.FullName)

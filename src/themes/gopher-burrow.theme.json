@@ -13,7 +13,24 @@
     "gray-50": "#$border-strong",
 
     "main-window-bg": "#$void",
-    "main-window-bg-alt": "#$void"
+    "main-window-bg-alt": "#$void",
+
+    "accent-brand-bg": "#$accent-80",
+    "accent-brand-border": "#$accent-80",
+    "accent-brand-bg-secondary": "#$accent-40",
+    "accent-brand-border-secondary": "#$accent-60",
+    "toolbar-selected-bg": "#$accent-60",
+    "toolbar-selected-bg-hovered": "#$accent-70",
+    "selection-bg-active": "#$accent-50",
+    "selection-bg-active-muted": "#$accent-40",
+    "tab-selected-bg-active": "#$accent-40",
+    "tab-selected-border-active": "#$accent-60",
+    "got-it-bg": "#$accent-60",
+    "got-it-border": "#$accent-60",
+    "got-it-text-link": "#$blue",
+    "presentation-assistant-bg": "#$accent-60",
+    "popup-completion-match-text": "#$gold",
+    "text-link": "#$blue"
   },
 
   "ui": {
@@ -21,5 +38,16 @@
 
     "VersionControl.Log.Commit.currentBranchBackground": "#$branch-row",
     "VersionControl.FileHistory.Commit.selectedBranchBackground": "#$branch-row"
+  },
+
+  "icons": {
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/icons/checkBoxFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelected.svg": "/themes/icons/checkBoxIndeterminateSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelectedFocused.svg": "/themes/icons/checkBoxIndeterminateSelectedFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelected.svg": "/themes/icons/checkBoxSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelectedFocused.svg": "/themes/icons/checkBoxSelectedFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/icons/radioFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelected.svg": "/themes/icons/radioSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedFocused.svg": "/themes/icons/radioSelectedFocused.svg"
   }
 }

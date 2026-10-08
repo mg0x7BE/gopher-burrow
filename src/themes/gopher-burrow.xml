@@ -3,6 +3,7 @@
         <property name="ide">GoLand</property>
     </metaInfo>
     <colors>
+        <option name="SELECTION_BACKGROUND" value="$accent-50" />
         <option name="ADDED_LINES_COLOR" value="549159" />
         <option name="ANNOTATIONS_COLOR" value="8D9199" />
         <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="CED0D6" />
@@ -25,43 +26,43 @@
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="DE6A66" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="DE6A66" />
         <option name="FILESTATUS_MERGED" value="CF84CF" deuteranopia="828eba" protanopia="828eba"/>
-        <option name="FILESTATUS_MODIFIED" value="70AEFF" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="70AEFF" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="70AEFF" />
-        <option name="FILESTATUS_RENAMED" value="70AEFF" />
+        <option name="FILESTATUS_MODIFIED" value="$blue" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="$blue" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="$blue" />
+        <option name="FILESTATUS_RENAMED" value="$blue" />
         <option name="FILESTATUS_UNKNOWN" value="E88F89" />
         <option name="FILESTATUS_addedOutside" value="73BD79" />
         <option name="FILESTATUS_changelistConflict" value="DE6A66" />
-        <option name="FILESTATUS_modifiedOutside" value="70AEFF" />
+        <option name="FILESTATUS_modifiedOutside" value="$blue" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="$hint" />
-        <option name="HINT_BORDER" value="393B40" />
+        <option name="HINT_BORDER" value="$border-strong" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="549159" />
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868A91" />
-        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="375FAD" />
+        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="$blue-dim" />
         <option name="INDENT_GUIDE" value="$guide" />
         <option name="INFORMATION_HINT" value="$hint" />
-        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393B40" />
-        <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393B40" />
-        <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393B40" />
+        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="$border-strong" />
+        <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="$border-strong" />
+        <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="$border-strong" />
         <option name="LINE_NUMBERS_COLOR" value="$line-number" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="$line-number-active" />
         <option name="LOOKUP_COLOR" value="$raised" />
-        <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="4E5157" />
-        <option name="METHOD_SEPARATORS_COLOR" value="43454A" />
-        <option name="MODIFIED_LINES_COLOR" value="375FAD" />
-        <option name="NOTIFICATION_BACKGROUND" value="25324D" />
-        <option name="PROMOTION_PANE" value="25324D" />
-        <option name="QUESTION_HINT" value="25324D" />
+        <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="$guide-active" />
+        <option name="METHOD_SEPARATORS_COLOR" value="$border-strong" />
+        <option name="MODIFIED_LINES_COLOR" value="$blue-dim" />
+        <option name="NOTIFICATION_BACKGROUND" value="$accent-40" />
+        <option name="PROMOTION_PANE" value="$accent-40" />
+        <option name="QUESTION_HINT" value="$accent-40" />
         <option name="RECENT_LOCATIONS_SELECTION" value="$hint" />
         <option name="RIGHT_MARGIN_COLOR" value="$guide" />
-        <option name="SELECTED_INDENT_GUIDE" value="4E5157" />
+        <option name="SELECTED_INDENT_GUIDE" value="$guide-active" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="FFFFFF4D" />
         <option name="ScrollBar.Mac.thumbColor" value="FFFFFF26" />
-        <option name="VCS_ANNOTATIONS_COLOR_1" value="2F5194" />
-        <option name="VCS_ANNOTATIONS_COLOR_2" value="2D416B" />
-        <option name="VCS_ANNOTATIONS_COLOR_3" value="283754" />
-        <option name="VCS_ANNOTATIONS_COLOR_4" value="242D42" />
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="22252E" />
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="$accent-60" />
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="$accent-50" />
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="$accent-40" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="$accent-30" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="$raised" />
         <option name="VISUAL_INDENT_GUIDE" value="$hint" />
         <option name="WHITESPACES" value="6F737A" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="52433D" />
@@ -164,8 +165,8 @@
         </option>
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="548af7" />
-                <option name="EFFECT_COLOR" value="548af7" />
+                <option name="FOREGROUND" value="$blue" />
+                <option name="EFFECT_COLOR" value="$blue" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -396,7 +397,7 @@
         <option name="DOC_CODE_INLINE">
             <value>
                 <option name="FOREGROUND" value="ced0d6" />
-                <option name="BACKGROUND" value="343539" />
+                <option name="BACKGROUND" value="$guide" />
             </value>
         </option>
         <option name="DOC_TIPS_SHORTCUT">
@@ -414,13 +415,13 @@
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="2a5091" />
+                <option name="BACKGROUND" value="$accent-60" />
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="868991" />
-                <option name="BACKGROUND" value="393b40" />
+                <option name="BACKGROUND" value="$border-strong" />
             </value>
         </option>
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -458,14 +459,14 @@
         </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="548af7" />
-                <option name="EFFECT_COLOR" value="548af7" />
+                <option name="FOREGROUND" value="$blue" />
+                <option name="EFFECT_COLOR" value="$blue" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="373b39" deuteranopia="32394c" protanopia="32394c" />
+                <option name="BACKGROUND" value="$border-strong" deuteranopia="32394c" protanopia="32394c" />
                 <option name="ERROR_STRIPE_COLOR" value="5b786a" deuteranopia="4b6f99" protanopia="4b6f99" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -497,7 +498,7 @@
         <option name="INLAY_DEFAULT">
             <value>
                 <option name="FOREGROUND" value="868a91" />
-                <option name="BACKGROUND" value="393b40" />
+                <option name="BACKGROUND" value="$guide" />
             </value>
         </option>
         <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
@@ -508,19 +509,19 @@
         <option name="INLINE_PARAMETER_HINT">
             <value>
                 <option name="FOREGROUND" value="858a94" />
-                <option name="BACKGROUND" value="393b40" />
+                <option name="BACKGROUND" value="$guide" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
                 <option name="FOREGROUND" value="83acfc" />
-                <option name="BACKGROUND" value="35538f" />
+                <option name="BACKGROUND" value="$accent-60" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
                 <option name="FOREGROUND" value="c9cbd6" />
-                <option name="BACKGROUND" value="43454a" />
+                <option name="BACKGROUND" value="$border-strong" />
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -603,7 +604,7 @@
         </option>
         <option name="LIVE_TEMPLATE_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="467ff2" />
+                <option name="EFFECT_COLOR" value="$blue" />
             </value>
         </option>
         <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
@@ -657,18 +658,18 @@
         </option>
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="43454a" />
+                <option name="BACKGROUND" value="$accent-40" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="MATCHED_TAG_NAME">
             <value>
-                <option name="BACKGROUND" value="3f4045" />
+                <option name="BACKGROUND" value="$border-strong" />
             </value>
         </option>
         <option name="NOT_TOP_FRAME_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="273552" />
+                <option name="BACKGROUND" value="$accent-40" />
             </value>
         </option>
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -751,7 +752,7 @@
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="114957" deuteranopia="363827" protanopia="363827" />
+                <option name="BACKGROUND" value="$search" deuteranopia="363827" protanopia="363827" />
                 <option name="EFFECT_COLOR" value="165e70" deuteranopia="66731d" protanopia="66731d" />
                 <option name="ERROR_STRIPE_COLOR" value="72d6d6" deuteranopia="65a878" protanopia="65a878" />
             </value>
@@ -808,7 +809,7 @@
         </option>
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="402f33" deuteranopia="253873" protanopia="253873" />
+                <option name="BACKGROUND" value="$ident-write" deuteranopia="253873" protanopia="253873" />
                 <option name="ERROR_STRIPE_COLOR" value="ba6387" deuteranopia="5fcc" protanopia="5fcc" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
@@ -1203,6 +1204,72 @@
             <value>
                 <option name="FOREGROUND" value="$operator" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <!-- PowerShell keeps VS Code / ISE colors, copied as is -->
+        <option name="POWER_SHELL_COMMAND_NAME">
+            <value>
+                <option name="FOREGROUND" value="eae99e" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_COMMAND_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="dfdfdf" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="e083da" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_LABEL_NAME">
+            <value>
+                <option name="FOREGROUND" value="dfdfdf" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="63aa3f" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_METHOD_CALL_NAME">
+            <value>
+                <option name="FOREGROUND" value="9cdcfe" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_METHOD_DECLARATION_NAME">
+            <value>
+                <option name="FOREGROUND" value="eae99e" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="b9dda5" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_PROPERTY_REF_NAME">
+            <value>
+                <option name="FOREGROUND" value="9cdcfe" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_STRING">
+            <value>
+                <option name="FOREGROUND" value="ec926d" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_TYPE_NAME">
+            <value>
+                <option name="FOREGROUND" value="eae99e" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_TYPE_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="30a8fe" />
+            </value>
+        </option>
+        <option name="POWER_SHELL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="9cdcfe" />
             </value>
         </option>
     </attributes>
