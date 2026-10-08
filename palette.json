@@ -1,0 +1,33 @@
+{
+  "void": "000000",
+  "island": "0E0D15",
+  "caret-row": "16141F",
+  "raised": "1D1A28",
+  "hint": "24212F",
+  "guide": "2C2839",
+  "border-strong": "38334A",
+  "branch-row": "251D36",
+
+  "fg": "C3C6D3",
+  "line-number": "45415C",
+  "line-number-active": "A19DB8",
+
+  "lavender": "B58BE4",
+  "blue": "60BFFB",
+  "turquoise": "37E6C3",
+  "periwinkle": "AFB8F4",
+  "lilac": "C9B4EE",
+  "cream": "D9D49D",
+  "peach": "E8B48A",
+  "green": "A8DC86",
+  "salmon": "DE9483",
+  "rose": "9C8189",
+  "gold": "FAC638",
+  "orchid": "D48AD9",
+
+  "operator": "A79ACB",
+  "punct": "8C88A6",
+  "comment": "77729A",
+  "comment-ref": "9590B8",
+  "tag-key": "9B8CC4"
+}

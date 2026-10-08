@@ -6,17 +6,20 @@
   "editorScheme": "/themes/gopher-burrow.xml",
 
   "colors": {
-    "gray-10": "#0E0D15",
-    "gray-20": "#16141F",
-    "gray-30": "#1D1A28",
-    "gray-40": "#2C2839",
-    "gray-50": "#38334A",
+    "gray-10": "#$island",
+    "gray-20": "#$caret-row",
+    "gray-30": "#$raised",
+    "gray-40": "#$guide",
+    "gray-50": "#$border-strong",
 
-    "main-window-bg": "#000000",
-    "main-window-bg-alt": "#000000"
+    "main-window-bg": "#$void",
+    "main-window-bg-alt": "#$void"
   },
 
   "ui": {
-    "Islands": 1
+    "Islands": 1,
+
+    "VersionControl.Log.Commit.currentBranchBackground": "#$branch-row",
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#$branch-row"
   }
 }
