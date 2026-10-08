@@ -3,7 +3,8 @@
         <property name="ide">GoLand</property>
     </metaInfo>
     <colors>
-        <option name="SELECTION_BACKGROUND" value="$accent-50" />
+        <option name="SELECTION_BACKGROUND" value="$selection" />
+        <option name="SELECTION_BACKGROUND_INACTIVE" value="$selection-inactive" />
         <option name="ADDED_LINES_COLOR" value="549159" />
         <option name="ANNOTATIONS_COLOR" value="8D9199" />
         <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="CED0D6" />
