@@ -1,0 +1,15 @@
+<idea-plugin>
+  <id>gopher-burrow</id>
+  <name>Gopher Burrow</name>
+  <version>0.1.0</version>
+  <vendor>Michał</vendor>
+  <description><![CDATA[
+    Dark Islands theme for GoLand, tuned for OLED screens and Go code.
+  ]]></description>
+  <idea-version since-build="262"/>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="gopher-burrow-dark" path="/themes/gopher-burrow.theme.json" targetUi="islands"/>
+  </extensions>
+</idea-plugin>

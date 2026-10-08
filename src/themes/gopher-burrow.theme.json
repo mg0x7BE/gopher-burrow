@@ -1,0 +1,22 @@
+{
+  "name": "Gopher Burrow",
+  "dark": true,
+  "author": "Michał",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "/themes/gopher-burrow.xml",
+
+  "colors": {
+    "gray-10": "#0E0D15",
+    "gray-20": "#16141F",
+    "gray-30": "#1D1A28",
+    "gray-40": "#2C2839",
+    "gray-50": "#38334A",
+
+    "main-window-bg": "#000000",
+    "main-window-bg-alt": "#000000"
+  },
+
+  "ui": {
+    "Islands": 1
+  }
+}
