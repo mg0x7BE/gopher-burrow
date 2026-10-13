@@ -148,22 +148,6 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <option name="CSS.COLOR">
-            <value>
-                <option name="FOREGROUND" value="56a8f5" deuteranopia="4c84d9" protanopia="4c84d9"/>
-            </value>
-        </option>
-        <option name="CSS.IMPORTANT">
-            <value>
-                <option name="FOREGROUND" value="cf8e6d" deuteranopia="597cc2" protanopia="597cc2"/>
-                <option name="FONT_TYPE" value="1" />
-            </value>
-        </option>
-        <option name="CSS.URL">
-            <value>
-                <option name="FOREGROUND" value="5c92ff" />
-            </value>
-        </option>
         <option name="CTRL_CLICKABLE">
             <value>
                 <option name="FOREGROUND" value="$blue" />
@@ -292,27 +276,6 @@
                 <option name="FOREGROUND" value="5c92ff" />
             </value>
         </option>
-        <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
-        <option name="HTML_CUSTOM_TAG_NAME">
-            <value>
-                <option name="FOREGROUND" value="2fbaa3" />
-            </value>
-        </option>
-        <option name="HTML_ENTITY_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="56a8f5" />
-            </value>
-        </option>
-        <option name="HTML_TAG">
-            <value>
-                <option name="FOREGROUND" value="d5b778" />
-            </value>
-        </option>
-        <option name="HTML_TAG_NAME">
-            <value>
-                <option name="FOREGROUND" value="d5b778" />
-            </value>
-        </option>
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="$blue" />
@@ -376,27 +339,6 @@
             </value>
         </option>
         <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-        <option name="JS.GLOBAL_VARIABLE">
-            <value>
-                <option name="FOREGROUND" value="c77dba" />
-                <option name="FONT_TYPE" value="2" />
-            </value>
-        </option>
-        <option name="JS.INSTANCE_MEMBER_FUNCTION">
-            <value>
-                <option name="FOREGROUND" value="56a8f5" />
-            </value>
-        </option>
-        <option name="JS.JSX_CLIENT_COMPONENT">
-            <value>
-                <option name="FOREGROUND" value="9c9cff" />
-            </value>
-        </option>
-        <option name="JS.REGEXP">
-            <value>
-                <option name="FOREGROUND" value="42c3d4" />
-            </value>
-        </option>
         <option name="JSP_DIRECTIVE_NAME">
             <value>
                 <option name="FOREGROUND" value="cf8e6d" deuteranopia="597cc2" protanopia="597cc2" />
@@ -660,36 +602,6 @@
                 <option name="EFFECT_COLOR" deuteranopia="80472d" protanopia="80472d"/>
                 <option name="EFFECT_TYPE" deuteranopia="4" protanopia="4"/>
                 <option name="FONT_TYPE" deuteranopia="bold" protanopia="bold"/>
-            </value>
-        </option>
-        <option name="XML_ATTRIBUTE_NAME">
-            <value>
-                <option name="FOREGROUND" value="bcbec4" />
-            </value>
-        </option>
-        <option name="XML_CUSTOM_TAG_NAME">
-            <value>
-                <option name="FOREGROUND" value="2fbaa3" />
-            </value>
-        </option>
-        <option name="XML_ENTITY_REFERENCE">
-            <value>
-                <option name="FOREGROUND" value="56a8f5" />
-            </value>
-        </option>
-        <option name="XML_PROLOGUE">
-            <value>
-                <option name="FOREGROUND" value="d5b778" />
-            </value>
-        </option>
-        <option name="XML_TAG">
-            <value>
-                <option name="FOREGROUND" value="d5b778" />
-            </value>
-        </option>
-        <option name="XML_TAG_NAME">
-            <value>
-                <option name="FOREGROUND" value="d5b778" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
@@ -1249,6 +1161,400 @@
         <option name="BASH.CONDITIONAL">
             <value>
                 <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="HTTP_REQUEST_METHOD_TYPE">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="HTTP_HEADER_FIELD_NAME">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="HTTP_HEADER_FIELD_VALUE">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="HTTP_REQUEST_PARAMETER_NAME">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="HTTP_REQUEST_PARAMETER_VALUE">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="HTTP_REQUEST_ENVIRONMENT_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="$orchid" />
+            </value>
+        </option>
+        <option name="HTTP_REQUEST_VARIABLE_BRACES">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="HTTP_REQUEST_NAME">
+            <value>
+                <option name="FOREGROUND" value="$comment-ref" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="HTML_TAG">
+            <value>
+                <option name="FOREGROUND" value="$punct" />
+            </value>
+        </option>
+        <option name="HTML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="HTML_CUSTOM_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="HTML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="HTML_ATTRIBUTE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="HTML_ENTITY_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="XML_TAG">
+            <value>
+                <option name="FOREGROUND" value="$punct" />
+            </value>
+        </option>
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="XML_CUSTOM_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="XML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="XML_ATTRIBUTE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="XML_ENTITY_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="XML_PROLOGUE">
+            <value>
+                <option name="FOREGROUND" value="$comment-ref" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="CSS.TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="CSS.CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="CSS.HASH">
+            <value>
+                <option name="FOREGROUND" value="$orchid" />
+            </value>
+        </option>
+        <option name="CSS.PSEUDO">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="CSS.ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="CSS.PROPERTY_NAME">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="CSS.PROPERTY_VALUE">
+            <value>
+                <option name="FOREGROUND" value="$lilac" />
+            </value>
+        </option>
+        <option name="CSS.IDENT">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+            </value>
+        </option>
+        <option name="CSS.COLOR">
+            <value>
+                <option name="FOREGROUND" value="$peach" />
+            </value>
+        </option>
+        <option name="CSS.NUMBER">
+            <value>
+                <option name="FOREGROUND" value="$peach" />
+            </value>
+        </option>
+        <option name="CSS.UNIT">
+            <value>
+                <option name="FOREGROUND" value="$peach" />
+            </value>
+        </option>
+        <option name="CSS.FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="CSS.KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+            </value>
+        </option>
+        <option name="CSS.IMPORTANT">
+            <value>
+                <option name="FOREGROUND" value="$salmon" />
+            </value>
+        </option>
+        <option name="CSS.URL">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="CSS.OPERATORS">
+            <value>
+                <option name="FOREGROUND" value="$operator" />
+            </value>
+        </option>
+        <option name="CSS.AMPERSAND">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+            </value>
+        </option>
+        <option name="TS.PRIMITIVE">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="TS.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="TS.INSTANCE_MEMBER_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="TS.STATIC_MEMBER_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="TS.DECORATOR">
+            <value>
+                <option name="FOREGROUND" value="$orchid" />
+            </value>
+        </option>
+        <option name="TS.TEMPLATE_LITERAL_PLACEHOLDER_DELIMITERS">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="JS.GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+            </value>
+        </option>
+        <option name="JS.INSTANCE_MEMBER_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="JS.JSX_CLIENT_COMPONENT">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="JS.REGEXP">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="HCL.BLOCK_FIRST_TYPE_KEY">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+            </value>
+        </option>
+        <option name="HCL.BLOCK_TYPES_KEY">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+            </value>
+        </option>
+        <option name="HCL.BLOCK_SECOND_TYPE_KEY">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="HCL.BLOCK_NAME_KEY">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="HCL.BLOCK_ONLY_NAME_KEY">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="HCL.PROPERTY_KEY">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="HCL.KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="$salmon" />
+            </value>
+        </option>
+        <option name="MAKEFILE_TARGET">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="MAKEFILE_PREREQUISITE">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="MAKEFILE_SPECIAL_TARGET">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="MAKEFILE_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="MAKEFILE_VARIABLE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="MAKEFILE_FUNCTION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="MAKEFILE_FUNCTION_PARAM">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+            </value>
+        </option>
+        <option name="MAKEFILE_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+            </value>
+        </option>
+        <option name="MAKEFILE_SEPARATOR">
+            <value>
+                <option name="FOREGROUND" value="$operator" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_CURLY_BRACES">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_PARENTHESES">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_BOOLEAN">
+            <value>
+                <option name="FOREGROUND" value="$salmon" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="$peach" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_STRING">
+            <value>
+                <option name="FOREGROUND" value="$cream" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_OPERATIONS">
+            <value>
+                <option name="FOREGROUND" value="$operator" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_DOT">
+            <value>
+                <option name="FOREGROUND" value="$punct" />
+            </value>
+        </option>
+        <option name="GITHUB_EXPRESSION_COMMA">
+            <value>
+                <option name="FOREGROUND" value="$punct" />
             </value>
         </option>
         <option name="DIFF_CONFLICT">
