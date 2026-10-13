@@ -2,4 +2,5 @@
 /claude-local-notes/
 /.claude/
 *.exe
-/.idea/
+/.idea/*
+!/.idea/icon.svg

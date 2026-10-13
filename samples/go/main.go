@@ -88,8 +88,8 @@ func Filter[T any](in []T, keep func(T) bool) []T {
 
 func main() {
 	var store Store = newStore()
-	item := Item{ID: 42, Name: "Gopher plush", Price: 19.99, Tags: defaultTags, status: Published}
-	item.notify = func(msg string) { fmt.Println("notify:", msg) }
+	item := Item{ID: 42, Name: "Gopher plush", Price: 19.99, Tags: defaultTags, status: Published,
+		notify: func(msg string) { fmt.Println("notify:", msg) }}
 
 	if err := store.Put(item); err != nil {
 		fmt.Fprintln(os.Stderr, err)
