@@ -37,7 +37,9 @@
     "Islands": 1,
 
     "VersionControl.Log.Commit.currentBranchBackground": "#$branch-row",
-    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#$branch-row"
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#$branch-row",
+
+    "ProgressBar.indeterminateStartColor": "#$turquoise"
   },
 
   "icons": {

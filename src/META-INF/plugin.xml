@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>gopher-burrow</id>
   <name>Gopher Burrow</name>
-  <version>0.4.4</version>
+  <version>0.5.4</version>
   <vendor>Michał</vendor>
   <description><![CDATA[
     Dark Islands theme for GoLand, tuned for OLED screens and Go code.
