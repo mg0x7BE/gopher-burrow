@@ -6,6 +6,12 @@
 
 <p align="center">Dark theme for GoLand, built on Islands Dark and tuned for OLED screens.</p>
 
+<p align="center">
+  <a href="https://github.com/mg0x7BE/gopher-burrow/releases/latest"><img src="https://img.shields.io/github/v/release/mg0x7BE/gopher-burrow" alt="Release"></a>
+  <a href="https://github.com/mg0x7BE/gopher-burrow/actions/workflows/ci.yml"><img src="https://github.com/mg0x7BE/gopher-burrow/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/mg0x7BE/gopher-burrow" alt="License"></a>
+</p>
+
 ![Gopher Burrow in GoLand](docs/screenshots/go.png)
 
 - Real black around the panels, soft violet where you read.
