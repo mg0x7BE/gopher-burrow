@@ -1,4 +1,4 @@
-// Command build packs src/ into a GoLand plugin jar and renders the design preview.
+// Command build packs src/ into a GoLand plugin jar, filling in colors from palette.json.
 // Run it from the repository root: go run ./cmd/build
 package main
 
@@ -15,16 +15,13 @@ import (
 	"path/filepath"
 	"regexp"
 	"slices"
-	"text/template"
 )
 
 const (
-	paletteFile     = "palette.json"
-	srcDir          = "src"
-	buildDir        = "build"
-	pluginXML       = "src/META-INF/plugin.xml"
-	previewTemplate = "design/preview.html.tmpl"
-	previewOutput   = "design/preview.html"
+	paletteFile = "palette.json"
+	srcDir      = "src"
+	buildDir    = "build"
+	pluginXML   = "src/META-INF/plugin.xml"
 )
 
 var placeholder = regexp.MustCompile(`\$([a-z][a-z0-9-]*)`)
@@ -53,12 +50,8 @@ func run() error {
 	if err := writeJar(jar, palette); err != nil {
 		return err
 	}
-	if err := writePreview(palette); err != nil {
-		return err
-	}
 
 	fmt.Println("Built", jar)
-	fmt.Println("Rendered", previewOutput)
 	return nil
 }
 
@@ -180,16 +173,4 @@ func validate(ext string, data []byte) error {
 			return err
 		}
 	}
-}
-
-func writePreview(palette map[string]string) error {
-	tmpl, err := template.ParseFiles(previewTemplate)
-	if err != nil {
-		return err
-	}
-	var out bytes.Buffer
-	if err := tmpl.Execute(&out, map[string]any{"Palette": palette}); err != nil {
-		return err
-	}
-	return os.WriteFile(previewOutput, out.Bytes(), 0o644)
 }
