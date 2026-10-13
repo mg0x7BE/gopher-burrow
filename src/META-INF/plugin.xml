@@ -1,8 +1,8 @@
 <idea-plugin>
   <id>io.github.mg0x7be.gopherburrow</id>
   <name>Gopher Burrow</name>
-  <version>0.6.1</version>
-  <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg0x7BE</vendor>
+  <version>0.6.2</version>
+  <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg</vendor>
   <description><![CDATA[
     <p>Dark theme for GoLand, built on Islands Dark and tuned for OLED screens.</p>
     <ul>
