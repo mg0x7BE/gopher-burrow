@@ -5,7 +5,9 @@ Dark theme for GoLand built on top of the original Islands Dark, tuned for OLED 
 ## Build
 
 ```
-pwsh scripts/build.ps1
+go run ./cmd/build
 ```
 
-Install the jar from `build/` via Settings > Plugins > gear icon > Install Plugin from Disk.
+This packs `src/` into `build/gopher-burrow-<version>.jar`, filling in colors from `palette.json`, and renders `design/preview.html`.
+
+Install the jar via Settings > Plugins > gear icon > Install Plugin from Disk.

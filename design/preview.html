@@ -9,74 +9,61 @@
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root {
-    --void: #000000;
-    --island: #0E0D15;
+    --accent-30: #2B1B3F;
+    --accent-40: #3A2358;
+    --accent-50: #492A71;
+    --accent-60: #552E89;
+    --accent-70: #6B2FB9;
+    --accent-80: #8138E1;
+    --blue: #60BFFB;
+    --blue-dim: #3A7FB0;
+    --border-strong: #38334A;
+    --branch-row: #251D36;
     --caret-row: #16141F;
-    --raised: #1D1A28;
-    --border: #2C2839;
-    --ui-text: #C3C6D3;
-    --ui-muted: #8C88A6;
-
+    --comment: #77729A;
+    --comment-ref: #9590B8;
+    --cream: #D9D49D;
     --fg: #C3C6D3;
-    --kw: #C794F9;
-    --fn: #60BFFB;
-    --type: #37E6C3;
-    --str: #D9D49D;
-    --esc: #FAC638;
-    --num-peach: #E8B48A;
-    --num-green: #A8DC86;
-    --bconst: #DE9483;
-    --nil-dim: #9C8189;
     --gold: #FAC638;
+    --green: #A8DC86;
+    --guide: #2C2839;
+    --guide-active: #4A4463;
+    --hint: #24212F;
+    --ident-write: #43293D;
+    --island: #0E0D15;
+    --lavender: #C794F9;
+    --lilac: #C9B4EE;
+    --line-number: #45415C;
+    --line-number-active: #A19DB8;
+    --operator: #A79ACB;
     --orchid: #D48AD9;
-    --op: #A79ACB;
-    --punc: #8C88A6;
-    --cmt: #77729A;
-    --cref: #9590B8;
-    --field: #AFB8F4;
-    --const: #C9B4EE;
-    --pkg-dim: #46A491;
-    --tagk: #938FB0;
-    --shadow-line: #DE9483;
-    --lineno: #45415C;
-    --lineno-cur: #A19DB8;
-
-    --num: var(--num-peach);
-    --pkg: var(--type);
-    --nil: var(--nil-dim);
-    --bracket: var(--gold);
-    --italic: italic;
+    --peach: #E8B48A;
+    --periwinkle: #AFB8F4;
+    --punct: #8C88A6;
+    --raised: #1D1A28;
+    --rose: #9C8189;
+    --salmon: #DE9483;
+    --search: #574711;
+    --selection: #26173A;
+    --selection-inactive: #221D30;
+    --tag-key: #938FB0;
+    --turquoise: #37E6C3;
+    --void: #000000;
   }
-  [data-num="green"] { --num: var(--num-green); }
-  [data-pkg="dim"] { --pkg: var(--pkg-dim); }
-  [data-nil="bright"] { --nil: var(--bconst); }
-  [data-brack="orchid"] { --bracket: var(--orchid); }
-  [data-italic="off"] { --italic: normal; }
-  [data-tb="old"] { --kw: #B699DA; --gold: #F0D058; --esc: #F0D058; --fn: #82D6E6; --type: #74DEC6; --field: #9FB5F2; --pkg-dim: #5E9E92; }
 
   * { box-sizing: border-box; }
   body {
     margin: 0;
     padding: 24px;
     background: var(--void);
-    color: var(--ui-text);
+    color: var(--fg);
     font: 15px/1.5 system-ui, "Segoe UI", sans-serif;
   }
   h1 { font-size: 18px; font-weight: 600; margin: 0 0 4px; }
-  .sub { color: var(--ui-muted); margin: 0 0 20px; }
+  .sub { color: var(--punct); margin: 0 0 20px; }
   .layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; align-items: start; max-width: 1400px; }
   @media (max-width: 1000px) { .layout { grid-template-columns: minmax(0, 1fr); } }
-
   .island { background: var(--island); border-radius: 20px; padding: 16px; }
-  .controls { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-bottom: 16px; }
-  .control { display: flex; flex-direction: column; gap: 6px; }
-  .control span { color: var(--ui-muted); font-size: 13px; }
-  .seg { display: inline-flex; background: var(--raised); border-radius: 8px; padding: 3px; }
-  .seg button {
-    font: inherit; font-size: 14px; color: var(--ui-text); background: transparent;
-    border: 0; border-radius: 6px; padding: 5px 12px; cursor: pointer;
-  }
-  .seg button[aria-pressed="true"] { background: var(--border); color: #fff; }
 
   .code { overflow-x: auto; padding: 8px 0; }
   pre {
@@ -85,61 +72,46 @@
   }
   .line { display: block; padding-right: 16px; }
   .line.caret { background: var(--caret-row); }
-  .ln { display: inline-block; width: 3.2em; padding-right: 1.4em; text-align: right; color: var(--lineno); user-select: none; }
-  .caret .ln { color: var(--lineno-cur); }
+  .ln { display: inline-block; width: 3.2em; padding-right: 1.4em; text-align: right; color: var(--line-number); user-select: none; }
+  .caret .ln { color: var(--line-number-active); }
 
-  .k { color: var(--kw); }
-  .f { color: var(--fn); font-weight: 700; }
-  .c { color: var(--fn); }
-  .t { color: var(--type); }
-  .td { color: var(--type); font-weight: 700; }
-  .bt { color: var(--type); font-style: var(--italic); }
-  .bf { color: var(--fn); font-style: var(--italic); }
-  .bc { color: var(--bconst); }
-  .n { color: var(--nil); }
-  .p { color: var(--pkg); }
-  .s { color: var(--str); }
-  .e { color: var(--esc); }
-  .num { color: var(--num); }
-  .cm { color: var(--cmt); font-style: var(--italic); }
-  .cr { color: var(--cref); }
-  .fd { color: var(--field); }
-  .rv { font-style: var(--italic); }
-  .cn { color: var(--const); font-style: var(--italic); }
-  .o { color: var(--op); }
-  .pu { color: var(--punc); }
-  .pr, .br { color: var(--gold); }
-  .bk { color: var(--bracket); }
-  .tk { color: var(--tagk); }
-  .sh { text-decoration: underline dotted var(--shadow-line); text-underline-offset: 4px; }
+  .k { color: var(--lavender); }
+  .f { color: var(--blue); font-weight: 700; }
+  .c { color: var(--blue); }
+  .t { color: var(--turquoise); }
+  .td { color: var(--turquoise); font-weight: 700; }
+  .bt { color: var(--turquoise); font-style: italic; }
+  .bf { color: var(--blue); font-style: italic; }
+  .bc { color: var(--salmon); }
+  .n { color: var(--rose); }
+  .p { color: var(--turquoise); }
+  .s { color: var(--cream); }
+  .e { color: var(--gold); }
+  .num { color: var(--peach); }
+  .cm { color: var(--comment); font-style: italic; }
+  .cr { color: var(--comment-ref); }
+  .fd { color: var(--periwinkle); }
+  .rv { font-style: italic; }
+  .cn { color: var(--lilac); font-style: italic; }
+  .o { color: var(--operator); }
+  .pu { color: var(--punct); }
+  .pr, .br, .bk { color: var(--gold); }
+  .tk { color: var(--tag-key); }
+  .sh { text-decoration: underline dotted var(--salmon); text-underline-offset: 4px; }
 
   .legend h2 { font-size: 15px; font-weight: 600; margin: 0 0 12px; }
   .legend ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
   .legend li { display: grid; grid-template-columns: 14px 1fr; gap: 10px; align-items: center; font-size: 14px; }
   .sw { width: 14px; height: 14px; border-radius: 4px; }
-  .legend code { font-family: "JetBrains Mono", monospace; font-variant-ligatures: none; font-size: 13px; color: var(--ui-muted); }
-
-  .summary { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-  .summary output { font-family: "JetBrains Mono", monospace; font-size: 13px; background: var(--raised); padding: 6px 10px; border-radius: 6px; }
-  .summary button { font: inherit; font-size: 14px; color: var(--ui-text); background: var(--border); border: 0; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+  .legend code { font-family: "JetBrains Mono", monospace; font-variant-ligatures: none; font-size: 13px; color: var(--punct); }
 </style>
 </head>
 <body>
-<h1>Gopher Burrow, etap 2: kolory składni Go</h1>
-<p class="sub">Tło jak w GoLandzie: czarna przerwa, wyspa edytora <code>#0E0D15</code>, podświetlona linia z kursorem.</p>
+<h1>Gopher Burrow</h1>
+<p class="sub">Generated from palette.json by go run ./cmd/build. Editor island on the black window gap, caret row on line 42.</p>
 
 <div class="layout">
-  <div>
-    <div class="island controls" id="controls">
-      <div class="control"><span>Liczby</span><div class="seg" data-key="num"><button data-val="peach">brzoskwinia</button><button data-val="green">zieleń</button></div></div>
-      <div class="control"><span>Pakiety (os, fmt)</span><div class="seg" data-key="pkg"><button data-val="bright">jasne</button><button data-val="dim">przygaszone</button></div></div>
-      <div class="control"><span>nil</span><div class="seg" data-key="nil"><button data-val="dim">przygaszony</button><button data-val="bright">jak true</button></div></div>
-      <div class="control"><span>Nawiasy [ ]</span><div class="seg" data-key="brack"><button data-val="gold">złote</button><button data-val="orchid">orchidea</button></div></div>
-      <div class="control"><span>Porównanie</span><div class="seg" data-key="tb"><button data-val="new">obecne</button><button data-val="old">pierwsze</button></div></div>
-      <div class="control"><span>Kursywa</span><div class="seg" data-key="italic"><button data-val="on">tak</button><button data-val="off">nie</button></div></div>
-    </div>
-
-    <div class="island code"><pre id="code"><span class="k">package</span> main
+  <div class="island code"><pre id="code"><span class="k">package</span> main
 
 <span class="k">import</span> <span class="pr">(</span>
 	<span class="s">"fmt"</span>
@@ -201,82 +173,34 @@
 	<span class="p">fmt</span><span class="pu">.</span><span class="c">Println</span><span class="pr">(</span><span class="bf">len</span><span class="pr">(</span>images<span class="pr">)</span><span class="pu">,</span> <span class="s">"images"</span><span class="pr">)</span>
 <span class="br">}</span></pre></div>
 
-    <div class="summary">
-      <output id="summary"></output>
-      <button id="copy">Kopiuj wybór</button>
-    </div>
-  </div>
-
   <aside class="island legend">
-    <h2>Kto ma jaki kolor</h2>
+    <h2>Palette</h2>
     <ul>
-      <li><span class="sw" style="background:var(--kw)"></span><span>słowa kluczowe <code>func if for</code></span></li>
-      <li><span class="sw" style="background:var(--fn)"></span><span>funkcje i metody, deklaracje pogrubione</span></li>
-      <li><span class="sw" style="background:var(--type)"></span><span>typy, wbudowane typy kursywą</span></li>
-      <li><span class="sw" style="background:var(--pkg)"></span><span>pakiety <code>os fmt</code></span></li>
-      <li><span class="sw" style="background:var(--field)"></span><span>pola struktur</span></li>
-      <li><span class="sw" style="background:var(--const)"></span><span>stałe <code>maxWidth</code></span></li>
-      <li><span class="sw" style="background:var(--fg)"></span><span>zmienne, receiver kursywą</span></li>
-      <li><span class="sw" style="background:var(--str)"></span><span>stringi</span></li>
-      <li><span class="sw" style="background:var(--num)"></span><span>liczby</span></li>
-      <li><span class="sw" style="background:var(--bconst)"></span><span><code>true false iota</code></span></li>
-      <li><span class="sw" style="background:var(--nil)"></span><span><code>nil</code></span></li>
-      <li><span class="sw" style="background:var(--gold)"></span><span>nawiasy, znaki specjalne <code>\n</code></span></li>
-      <li><span class="sw" style="background:var(--op)"></span><span>operatory <code>:= != ||</code></span></li>
-      <li><span class="sw" style="background:var(--punc)"></span><span>kropki, przecinki</span></li>
-      <li><span class="sw" style="background:var(--cmt)"></span><span>komentarze</span></li>
-      <li><span class="sw" style="background:var(--shadow-line)"></span><span>kropkowane podkreślenie: przesłonięte <code>err</code></span></li>
+      <li><span class="sw" style="background:var(--lavender)"></span><span>keywords <code>func if for</code></span></li>
+      <li><span class="sw" style="background:var(--blue)"></span><span>functions and methods, declarations bold</span></li>
+      <li><span class="sw" style="background:var(--turquoise)"></span><span>types and packages, built-in types italic</span></li>
+      <li><span class="sw" style="background:var(--periwinkle)"></span><span>struct fields</span></li>
+      <li><span class="sw" style="background:var(--lilac)"></span><span>constants <code>maxWidth</code></span></li>
+      <li><span class="sw" style="background:var(--fg)"></span><span>variables, receivers italic</span></li>
+      <li><span class="sw" style="background:var(--cream)"></span><span>strings</span></li>
+      <li><span class="sw" style="background:var(--peach)"></span><span>numbers</span></li>
+      <li><span class="sw" style="background:var(--salmon)"></span><span><code>true false iota</code></span></li>
+      <li><span class="sw" style="background:var(--rose)"></span><span><code>nil</code></span></li>
+      <li><span class="sw" style="background:var(--gold)"></span><span>brackets, escapes <code>\n</code></span></li>
+      <li><span class="sw" style="background:var(--operator)"></span><span>operators <code>:= != ||</code></span></li>
+      <li><span class="sw" style="background:var(--punct)"></span><span>dots and commas</span></li>
+      <li><span class="sw" style="background:var(--comment)"></span><span>comments</span></li>
+      <li><span class="sw" style="background:var(--salmon)"></span><span>dotted underline: shadowed <code>err</code></span></li>
     </ul>
   </aside>
 </div>
 
 <script>
   const CARET_LINE = 42;
-  const root = document.documentElement;
-  const state = { num: "peach", pkg: "bright", nil: "dim", brack: "gold", italic: "on", tb: "new" };
-  const labels = {
-    num: { peach: "brzoskwinia", green: "zieleń" },
-    pkg: { bright: "jasne", dim: "przygaszone" },
-    nil: { dim: "przygaszony", bright: "jak true" },
-    brack: { gold: "złote", orchid: "orchidea" },
-    italic: { on: "tak", off: "nie" },
-    tb: { new: "obecne", old: "pierwsze" },
-  };
-  const names = { num: "liczby", pkg: "pakiety", nil: "nil", brack: "[]", italic: "kursywa", tb: "porównanie" };
-
   const code = document.getElementById("code");
   code.innerHTML = code.innerHTML.split("\n").map((html, i) =>
     `<span class="line${i + 1 === CARET_LINE ? " caret" : ""}"><span class="ln">${i + 1}</span>${html || " "}</span>`
   ).join("");
-
-  function render() {
-    for (const [key, val] of Object.entries(state)) {
-      root.dataset[key] = val;
-      document.querySelectorAll(`.seg[data-key="${key}"] button`).forEach(b =>
-        b.setAttribute("aria-pressed", String(b.dataset.val === val)));
-    }
-    document.getElementById("summary").textContent =
-      Object.keys(state).map(k => `${names[k]}=${labels[k][state[k]]}`).join(", ");
-  }
-
-  document.getElementById("controls").addEventListener("click", e => {
-    const btn = e.target.closest("button");
-    if (!btn) return;
-    state[btn.parentElement.dataset.key] = btn.dataset.val;
-    render();
-  });
-
-  document.getElementById("copy").addEventListener("click", async e => {
-    try {
-      await navigator.clipboard.writeText(document.getElementById("summary").textContent);
-      e.target.textContent = "Skopiowano";
-    } catch {
-      e.target.textContent = "Zaznacz tekst obok";
-    }
-    setTimeout(() => e.target.textContent = "Kopiuj wybór", 1500);
-  });
-
-  render();
 </script>
 </body>
 </html>

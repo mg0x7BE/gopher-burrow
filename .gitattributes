@@ -1,2 +1,5 @@
 * text=auto eol=lf
 *.jar binary
+
+design/** linguist-documentation
+design/preview.html linguist-generated

@@ -1,3 +1,5 @@
-build/
-claude-local-notes/
-.claude/
+/build/
+/claude-local-notes/
+/.claude/
+*.exe
+/.idea/
