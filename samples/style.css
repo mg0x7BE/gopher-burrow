@@ -1,0 +1,24 @@
+/* Dark layout for the inventory page */
+:root {
+  --accent: #c794f9;
+  --gap: 1.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  background: #0e0d15;
+  color: rgb(195 198 211);
+}
+
+.top-bar > h1,
+#items li:hover {
+  color: var(--accent);
+  transition: color 0.2s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: calc(var(--gap) / 2) !important;
+  }
+}

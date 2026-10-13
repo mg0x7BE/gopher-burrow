@@ -43,5 +43,13 @@
   "ident-write": "43293D",
   "search": "574711",
   "guide-active": "4A4463",
-  "blue-dim": "3A7FB0"
+  "blue-dim": "3A7FB0",
+
+  "diff-inserted": "254A33",
+  "diff-deleted": "4F2530",
+  "diff-modified": "22405C",
+  "diff-conflict": "4D3322",
+  "diff-inserted-mark": "5BAF73",
+  "diff-deleted-mark": "C25A6A",
+  "diff-conflict-mark": "C27A4E"
 }
