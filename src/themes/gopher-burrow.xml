@@ -1,3 +1,4 @@
+<!-- Based on Islands Dark from the IntelliJ Platform (Apache 2.0), modified for Gopher Burrow. -->
 <scheme name="Gopher Burrow" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">GoLand</property>

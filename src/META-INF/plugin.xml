@@ -1,10 +1,16 @@
 <idea-plugin>
-  <id>gopher-burrow</id>
+  <id>io.github.mg0x7be.gopherburrow</id>
   <name>Gopher Burrow</name>
-  <version>0.5.4</version>
-  <vendor>Michał</vendor>
+  <version>0.6.1</version>
+  <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg0x7BE</vendor>
   <description><![CDATA[
-    Dark Islands theme for GoLand, tuned for OLED screens and Go code.
+    <p>Dark theme for GoLand, built on Islands Dark and tuned for OLED screens.</p>
+    <ul>
+      <li>Real black around the panels, soft violet where you read.</li>
+      <li>Go code you can scan at a glance: types, functions and fields each get their own color.</li>
+      <li>The same colors follow you into YAML, SQL, Dockerfiles and the rest of the repo.</li>
+    </ul>
+    <p>Not affiliated with or endorsed by Google, the Go project or JetBrains.</p>
   ]]></description>
   <idea-version since-build="262"/>
   <depends>com.intellij.modules.platform</depends>

@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+      - name: Check tag matches plugin version
+        run: |
+          version=$(sed -n 's:.*<version>\(.*\)</version>.*:\1:p' src/META-INF/plugin.xml)
+          if [ "v$version" != "$GITHUB_REF_NAME" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match plugin version $version"
+            exit 1
+          fi
+      - run: go test ./...
+      - run: go run ./cmd/build
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" build/*.jar --title "$GITHUB_REF_NAME" --generate-notes
