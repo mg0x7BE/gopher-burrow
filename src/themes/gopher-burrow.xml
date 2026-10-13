@@ -1557,6 +1557,114 @@
                 <option name="FOREGROUND" value="$punct" />
             </value>
         </option>
+        <option name="PY.CLASS_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="PY.FUNC_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="PY.NESTED_FUNC_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="PY.KEYWORD_ARGUMENT">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="PY.SELF_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="PY.ANNOTATION">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="PY.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="PY.BUILTIN_NAME">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="PY.PREDEFINED_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="PY.PREDEFINED_USAGE">
+            <value>
+                <option name="FOREGROUND" value="$lilac" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="PY.DECORATOR">
+            <value>
+                <option name="FOREGROUND" value="$orchid" />
+            </value>
+        </option>
+        <option name="PY.FSTRING_FRAGMENT_BRACES">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="PY.FSTRING_FRAGMENT_COLON">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="PY.FSTRING_FORMAT_SPEC_SPECIAL_CHAR">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
+        <option name="PY.FSTRING_FORMAT_SPEC_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="$peach" />
+            </value>
+        </option>
+        <option name="org.toml.KEY">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="org.toml.BOOLEAN">
+            <value>
+                <option name="FOREGROUND" value="$salmon" />
+            </value>
+        </option>
+        <option name="org.toml.DATE">
+            <value>
+                <option name="FOREGROUND" value="$peach" />
+            </value>
+        </option>
+        <option name="GO_TEMPLATE_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="GO_TEMPLATE_DELIMITER">
+            <value>
+                <option name="FOREGROUND" value="$gold" />
+            </value>
+        </option>
         <option name="DIFF_CONFLICT">
             <value>
                 <option name="BACKGROUND" value="$diff-conflict" />
