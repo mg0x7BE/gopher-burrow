@@ -4,6 +4,7 @@ import "fmt"
 
 func total(prices []float64) float64 {
 	sum := 0.0
+	fmt.Println("debug:", len(prices))
 	for _, p := range prices {
 		sum += p
 	}
