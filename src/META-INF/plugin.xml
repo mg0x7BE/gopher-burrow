@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>io.github.mg0x7be.gopherburrow</id>
   <name>Gopher Burrow</name>
-  <version>0.6.3</version>
+  <version>0.6.4</version>
   <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg0x7BE</vendor>
   <description><![CDATA[
     <p>Dark theme for GoLand, built on Islands Dark and tuned for OLED screens.</p>
@@ -9,10 +9,14 @@
       <li>Real black around the panels, soft violet where you read.</li>
       <li>Go code you can scan at a glance: types, functions and fields each get their own color.</li>
       <li>The same colors follow you into YAML, SQL, Dockerfiles and the rest of the repo.</li>
+      <li>Works in IntelliJ IDEA, Rider, RustRover and CLion too, with the same palette.</li>
     </ul>
     <p>Source code and issues on <a href="https://github.com/mg0x7BE/gopher-burrow">GitHub</a>. Stars make the gopher happy.</p>
     <p>Not affiliated with or endorsed by Google, the Go project or JetBrains.</p>
   ]]></description>
+  <change-notes><![CDATA[
+    <p>Rust, C/C++, Kotlin and PowerShell now use the theme palette instead of their own colors, so types, functions, fields and constants look the same as in Go.</p>
+  ]]></change-notes>
   <idea-version since-build="262"/>
   <depends>com.intellij.modules.platform</depends>
 

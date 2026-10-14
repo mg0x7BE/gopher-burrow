@@ -18,6 +18,7 @@
 - Real black around the panels, soft violet where you read.
 - Go code you can scan at a glance: types, functions and fields each get their own color.
 - The same colors follow you into YAML, SQL, Dockerfiles and the rest of the repo.
+- Works in IntelliJ IDEA, Rider, RustRover and CLion too, with the same palette.
 
 ## Build
 
