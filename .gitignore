@@ -4,3 +4,12 @@
 *.exe
 /.idea/*
 !/.idea/icon.svg
+/samples/**/.idea/
+/samples/csharp/bin/
+/samples/csharp/obj/
+/samples/rust/target/
+/samples/rust/Cargo.lock
+/samples/c-cpp/cmake-build-*/
+/samples/java-kotlin/.gradle/
+/samples/java-kotlin/.kotlin/
+/samples/java-kotlin/build/
