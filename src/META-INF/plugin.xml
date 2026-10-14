@@ -4,12 +4,10 @@
   <version>0.6.4</version>
   <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg0x7BE</vendor>
   <description><![CDATA[
-    <p>Dark theme for GoLand, built on Islands Dark and tuned for OLED screens.</p>
+    <p>Dark theme for GoLand, built on Islands Dark.</p>
     <ul>
-      <li>Real black around the panels, soft violet where you read.</li>
-      <li>Go code you can scan at a glance: types, functions and fields each get their own color.</li>
-      <li>The same colors follow you into YAML, SQL, Dockerfiles and the rest of the repo.</li>
-      <li>Works in IntelliJ IDEA, Rider, RustRover and CLion too, with the same palette.</li>
+      <li>Colors tuned for Go and most popular languages.</li>
+      <li>Made for GoLand, but I've also tried it in IntelliJ IDEA, Rider, RustRover and CLion, so it should look good there too.</li>
     </ul>
     <p>Source code and issues on <a href="https://github.com/mg0x7BE/gopher-burrow">GitHub</a>. Stars make the gopher happy.</p>
     <p>Not affiliated with or endorsed by Google, the Go project or JetBrains.</p>

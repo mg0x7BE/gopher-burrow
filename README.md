@@ -1,24 +1,16 @@
-<p align="center">
-  <img src="src/META-INF/pluginIcon.svg" width="120" alt="Gopher Burrow icon">
-</p>
+# ![](src/META-INF/pluginIcon.svg) Gopher Burrow
 
-<h1 align="center">Gopher Burrow</h1>
+[![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/35081)](https://plugins.jetbrains.com/plugin/35081)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/35081)](https://plugins.jetbrains.com/plugin/35081)
+[![CI](https://github.com/mg0x7BE/gopher-burrow/actions/workflows/ci.yml/badge.svg)](https://github.com/mg0x7BE/gopher-burrow/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/mg0x7BE/gopher-burrow)](LICENSE)
 
-<p align="center">Dark theme for GoLand, built on Islands Dark and tuned for OLED screens.</p>
-
-<p align="center">
-  <a href="https://plugins.jetbrains.com/plugin/35081"><img src="https://img.shields.io/jetbrains/plugin/v/35081" alt="JetBrains Marketplace"></a>
-  <a href="https://plugins.jetbrains.com/plugin/35081"><img src="https://img.shields.io/jetbrains/plugin/d/35081" alt="Downloads"></a>
-  <a href="https://github.com/mg0x7BE/gopher-burrow/actions/workflows/ci.yml"><img src="https://github.com/mg0x7BE/gopher-burrow/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/mg0x7BE/gopher-burrow" alt="License"></a>
-</p>
+Dark theme for GoLand, built on Islands Dark.
 
 ![Gopher Burrow in GoLand](docs/screenshots/go.png)
 
-- Real black around the panels, soft violet where you read.
-- Go code you can scan at a glance: types, functions and fields each get their own color.
-- The same colors follow you into YAML, SQL, Dockerfiles and the rest of the repo.
-- Works in IntelliJ IDEA, Rider, RustRover and CLion too, with the same palette.
+- Colors tuned for Go and most popular languages.
+- Made for GoLand, but I've also tried it in IntelliJ IDEA, Rider, RustRover and CLion, so it should look good there too.
 
 ## Build
 
