@@ -348,7 +348,8 @@
         </option>
         <option name="KOTLIN_LABEL">
             <value>
-                <option name="FOREGROUND" value="32b8af" />
+                <option name="FOREGROUND" value="$lavender" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="KOTLIN_MUTABLE_VARIABLE">
@@ -359,7 +360,7 @@
         </option>
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="56c1d6" />
+                <option name="FOREGROUND" value="$periwinkle" />
             </value>
         </option>
         <option name="KOTLIN_SMART_CAST_RECEIVER">
@@ -1656,6 +1657,168 @@
                 <option name="FOREGROUND" value="$peach" />
             </value>
         </option>
+        <option name="org.rust.STRUCT">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.ENUM">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.UNION">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.TYPE_ALIAS">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.TRAIT">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.CRATE">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="org.rust.LIFETIME">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.ENUM_VARIANT">
+            <value>
+                <option name="FOREGROUND" value="$lilac" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.STATIC">
+            <value>
+                <option name="FOREGROUND" value="$lilac" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.TRAIT_METHOD">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="org.rust.METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="org.rust.ASSOC_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="org.rust.ASSOC_TRAIT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="org.rust.TRAIT_METHOD_CALL">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="org.rust.MACRO">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="org.rust.SELF_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.SELF_EXPRESSION">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.MUT_SELF_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="$fg" />
+                <option name="FONT_TYPE" value="2" />
+                <option name="EFFECT_COLOR" value="$fg" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.Q_OPERATOR">
+            <value>
+                <option name="FOREGROUND" value="$lavender" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="OC.STRUCT_LIKE">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="OC.TYPEDEF">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="OC.CLASS_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="OC.PROTOCOL_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="$turquoise" />
+            </value>
+        </option>
+        <option name="OC.STRUCT_FIELD">
+            <value>
+                <option name="FOREGROUND" value="$periwinkle" />
+            </value>
+        </option>
+        <option name="OC.MACRONAME">
+            <value>
+                <option name="FOREGROUND" value="$lilac" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="OC.METHOD_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="OC.MESSAGE_ARGUMENT">
+            <value>
+                <option name="FOREGROUND" value="$blue" />
+            </value>
+        </option>
+        <option name="OC.OVERLOADED_OPERATOR">
+            <value>
+                <option name="FOREGROUND" value="$operator" />
+            </value>
+        </option>
         <option name="GO_TEMPLATE_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="$periwinkle" />
@@ -2038,70 +2201,73 @@
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
-        <!-- PowerShell keeps VS Code / ISE colors, copied as is -->
         <option name="POWER_SHELL_COMMAND_NAME">
             <value>
-                <option name="FOREGROUND" value="eae99e" />
+                <option name="FOREGROUND" value="$blue" />
             </value>
         </option>
         <option name="POWER_SHELL_COMMAND_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="dfdfdf" />
+                <option name="FOREGROUND" value="$fg" />
             </value>
         </option>
         <option name="POWER_SHELL_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="e083da" />
+                <option name="FOREGROUND" value="$lavender" />
             </value>
         </option>
         <option name="POWER_SHELL_LABEL_NAME">
             <value>
-                <option name="FOREGROUND" value="dfdfdf" />
+                <option name="FOREGROUND" value="$lavender" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="POWER_SHELL_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="63aa3f" />
+                <option name="FOREGROUND" value="$comment" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="POWER_SHELL_METHOD_CALL_NAME">
             <value>
-                <option name="FOREGROUND" value="9cdcfe" />
+                <option name="FOREGROUND" value="$blue" />
             </value>
         </option>
         <option name="POWER_SHELL_METHOD_DECLARATION_NAME">
             <value>
-                <option name="FOREGROUND" value="eae99e" />
+                <option name="FOREGROUND" value="$blue" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="POWER_SHELL_NUMBER">
             <value>
-                <option name="FOREGROUND" value="b9dda5" />
+                <option name="FOREGROUND" value="$peach" />
             </value>
         </option>
         <option name="POWER_SHELL_PROPERTY_REF_NAME">
             <value>
-                <option name="FOREGROUND" value="9cdcfe" />
+                <option name="FOREGROUND" value="$periwinkle" />
             </value>
         </option>
         <option name="POWER_SHELL_STRING">
             <value>
-                <option name="FOREGROUND" value="ec926d" />
+                <option name="FOREGROUND" value="$cream" />
             </value>
         </option>
         <option name="POWER_SHELL_TYPE_NAME">
             <value>
-                <option name="FOREGROUND" value="eae99e" />
+                <option name="FOREGROUND" value="$turquoise" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="POWER_SHELL_TYPE_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="30a8fe" />
+                <option name="FOREGROUND" value="$turquoise" />
             </value>
         </option>
         <option name="POWER_SHELL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="9cdcfe" />
+                <option name="FOREGROUND" value="$periwinkle" />
             </value>
         </option>
     </attributes>
