@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>io.github.mg0x7be.gopherburrow</id>
   <name>Gopher Burrow</name>
-  <version>0.6.4</version>
+  <version>0.6.5</version>
   <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg0x7BE</vendor>
   <description><![CDATA[
     <p>Dark theme for GoLand, built on Islands Dark.</p>
@@ -13,7 +13,7 @@
     <p>Not affiliated with or endorsed by Google, the Go project or JetBrains.</p>
   ]]></description>
   <change-notes><![CDATA[
-    <p>Rust, C/C++, Kotlin and PowerShell now use the theme palette instead of their own colors, so types, functions, fields and constants look the same as in Go.</p>
+    <p>Brighter line numbers and calmer diff backgrounds, so big added or removed blocks are easier to read.</p>
   ]]></change-notes>
   <idea-version since-build="262"/>
   <depends>com.intellij.modules.platform</depends>
