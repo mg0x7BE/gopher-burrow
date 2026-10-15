@@ -11,7 +11,7 @@
   "selection-inactive": "221D30",
 
   "fg": "C3C6D3",
-  "line-number": "45415C",
+  "line-number": "726D8E",
   "line-number-active": "A19DB8",
 
   "lavender": "C794F9",
@@ -45,10 +45,10 @@
   "guide-active": "4A4463",
   "blue-dim": "3A7FB0",
 
-  "diff-inserted": "254A33",
-  "diff-deleted": "4F2530",
-  "diff-modified": "22405C",
-  "diff-conflict": "4D3322",
+  "diff-inserted": "1E3B29",
+  "diff-deleted": "3F1E26",
+  "diff-modified": "1B334A",
+  "diff-conflict": "3E291B",
   "diff-inserted-mark": "5BAF73",
   "diff-deleted-mark": "C25A6A",
   "diff-conflict-mark": "C27A4E"
