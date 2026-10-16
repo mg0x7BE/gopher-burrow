@@ -23,7 +23,7 @@
     "toolbar-selected-bg-hovered": "#$accent-70",
     "selection-bg-active": "#$accent-40",
     "selection-bg-active-muted": "#$accent-40",
-    "tab-selected-bg-active": "#$selection",
+    "tab-selected-bg-active": "#$tab-active",
     "tab-selected-border-active": "#$accent-60",
     "got-it-bg": "#$accent-60",
     "got-it-border": "#$accent-60",

@@ -286,7 +286,7 @@
         </option>
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="$border-strong" deuteranopia="32394c" protanopia="32394c" />
+                <option name="BACKGROUND" value="$guide" deuteranopia="32394c" protanopia="32394c" />
                 <option name="ERROR_STRIPE_COLOR" value="5b786a" deuteranopia="4b6f99" protanopia="4b6f99" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
