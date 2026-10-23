@@ -1,0 +1,14 @@
+{
+  "name": "inventory",
+  "version": "1.4.2",
+  "debug": false,
+  "port": 8080,
+  "ratio": 0.75,
+  "owner": null,
+  "tags": ["go", "theme", "dark"],
+  "database": {
+    "host": "localhost",
+    "pool": { "min": 2, "max": 10 },
+    "dsn": "postgres://app@localhost/inventory?sslmode=disable\n"
+  }
+}

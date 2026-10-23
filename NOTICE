@@ -1,0 +1,17 @@
+Gopher Burrow
+Copyright 2026 mg
+
+This product includes material from the IntelliJ Platform by JetBrains s.r.o.
+(https://github.com/JetBrains/intellij-community), licensed under the Apache
+License, Version 2.0:
+- src/jetbrains/themes/gopher-burrow.xml is based on the Islands Dark editor color scheme
+  (platform/platform-resources/src/themes/islands/IslandSchemeDark.xml).
+- src/jetbrains/themes/icons/*.svg are recolored copies of the IntelliJ Platform checkbox
+  and radio button icons (themes/expUI/icons/dark).
+
+The plugin icon (src/jetbrains/META-INF/pluginIcon.svg) is an original adaptation of the
+Go gopher, which was designed by Renee French (https://reneefrench.blogspot.com/)
+and is licensed under the Creative Commons Attribution 4.0 License.
+
+Gopher Burrow is an independent project. It is not affiliated with or endorsed
+by Google, the Go project or JetBrains.

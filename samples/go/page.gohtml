@@ -1,0 +1,18 @@
+{{define "page"}}
+<!doctype html>
+<html lang="en">
+<head><title>{{.Title}}</title></head>
+<body>
+  {{/* Items are listed with their price */}}
+  <h1>{{.Title | html}}</h1>
+  {{range $i, $item := .Items}}
+    {{if gt $item.Price 10.0}}
+      <p class="expensive">{{$i}}: {{$item.Name}} costs {{printf "%.2f" $item.Price}}</p>
+    {{else}}
+      <p>{{$item.Name}}</p>
+    {{end}}
+  {{end}}
+  {{with .Footer}}<footer>{{.}}</footer>{{end}}
+</body>
+</html>
+{{end}}

@@ -1,0 +1,35 @@
+# Kubernetes deployment for the inventory service
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: inventory
+  labels:
+    app: inventory
+    tier: backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: inventory
+  template:
+    metadata:
+      labels:
+        app: inventory
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/example/inventory:1.4.2
+          ports:
+            - containerPort: 8080
+          env:
+            - name: LOG_LEVEL
+              value: "debug"
+            - name: CACHE_ENABLED
+              value: "true"
+          resources:
+            limits:
+              cpu: 500m
+              memory: 256Mi
+          readinessProbe:
+            httpGet: { path: /healthz, port: 8080 }
+            initialDelaySeconds: 5

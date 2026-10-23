@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package inventory.v1;
+
+option go_package = "example.com/inventory/gen/inventory/v1;inventoryv1";
+
+import "google/protobuf/timestamp.proto";
+
+// Item is a single inventory entry.
+message Item {
+  int64 id = 1;
+  string name = 2;
+  double price = 3;
+  repeated string tags = 4;
+  Status status = 5;
+  google.protobuf.Timestamp created_at = 6;
+  map<string, string> labels = 7;
+  reserved 8, 9;
+}
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_DRAFT = 1;
+  STATUS_PUBLISHED = 2;
+}
+
+service InventoryService {
+  rpc GetItem(GetItemRequest) returns (Item);
+  rpc ListItems(ListItemsRequest) returns (stream Item);
+}
+
+message GetItemRequest {
+  int64 id = 1;
+}
+
+message ListItemsRequest {
+  int32 page_size = 1;
+  string page_token = 2;
+}

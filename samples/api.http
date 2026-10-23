@@ -1,0 +1,18 @@
+### Get one item
+GET http://localhost:8080/items/42
+Accept: application/json
+
+### Create an item
+POST http://localhost:8080/items
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Gopher plush",
+  "price": 19.99,
+  "tags": ["go", "toy"]
+}
+
+> {%
+    client.test("created", () => client.assert(response.status === 201));
+%}

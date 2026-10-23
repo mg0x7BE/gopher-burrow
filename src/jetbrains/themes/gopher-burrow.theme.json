@@ -1,0 +1,58 @@
+{
+  "name": "Gopher Burrow",
+  "dark": true,
+  "author": "mg0x7BE",
+  "parentTheme": "Islands Dark",
+  "editorScheme": "/themes/gopher-burrow.xml",
+
+  "colors": {
+    "gray-10": "#$island",
+    "gray-20": "#$caret-row",
+    "gray-30": "#$raised",
+    "gray-40": "#$guide",
+    "gray-50": "#$border-strong",
+
+    "main-window-bg": "#$void",
+    "main-window-bg-alt": "#$void",
+
+    "accent-brand-bg": "#$accent-80",
+    "accent-brand-border": "#$accent-80",
+    "accent-brand-bg-secondary": "#$accent-40",
+    "accent-brand-border-secondary": "#$accent-60",
+    "toolbar-selected-bg": "#$accent-60",
+    "toolbar-selected-bg-hovered": "#$accent-70",
+    "selection-bg-active": "#$accent-40",
+    "selection-bg-active-muted": "#$accent-40",
+    "tab-selected-bg-active": "#$tab-active",
+    "tab-selected-border-active": "#$accent-60",
+    "got-it-bg": "#$accent-60",
+    "got-it-border": "#$accent-60",
+    "got-it-text-link": "#$blue",
+    "presentation-assistant-bg": "#$accent-60",
+    "popup-completion-match-text": "#$gold",
+    "text-link": "#$blue"
+  },
+
+  "ui": {
+    "Islands": 1,
+
+    "ToolWindow.Button.selectedBackground": "#$accent-80",
+    "ToolWindow.Button.selectedForeground": "white",
+
+    "VersionControl.Log.Commit.currentBranchBackground": "#$branch-row",
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#$branch-row",
+
+    "ProgressBar.indeterminateStartColor": "#$turquoise"
+  },
+
+  "icons": {
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/icons/checkBoxFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelected.svg": "/themes/icons/checkBoxIndeterminateSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelectedFocused.svg": "/themes/icons/checkBoxIndeterminateSelectedFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelected.svg": "/themes/icons/checkBoxSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelectedFocused.svg": "/themes/icons/checkBoxSelectedFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/icons/radioFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelected.svg": "/themes/icons/radioSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedFocused.svg": "/themes/icons/radioSelectedFocused.svg"
+  }
+}

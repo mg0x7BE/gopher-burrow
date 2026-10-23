@@ -1,0 +1,24 @@
+<idea-plugin>
+  <id>io.github.mg0x7be.gopherburrow</id>
+  <name>Gopher Burrow</name>
+  <version>$version</version>
+  <vendor url="https://github.com/mg0x7BE/gopher-burrow">mg0x7BE</vendor>
+  <description><![CDATA[
+    <p>Dark theme for GoLand, built on Islands Dark.</p>
+    <ul>
+      <li>Colors tuned for Go and most popular languages.</li>
+      <li>Made for GoLand, but I've also tried it in IntelliJ IDEA, Rider, RustRover and CLion, so it should look good there too.</li>
+    </ul>
+    <p>Source code and issues on <a href="https://github.com/mg0x7BE/gopher-burrow">GitHub</a>. Stars make the gopher happy.</p>
+    <p>Not affiliated with or endorsed by Google, the Go project or JetBrains.</p>
+  ]]></description>
+  <change-notes><![CDATA[
+    $release-notes
+  ]]></change-notes>
+  <idea-version since-build="262"/>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="gopher-burrow-dark" path="/themes/gopher-burrow.theme.json" targetUi="islands"/>
+  </extensions>
+</idea-plugin>

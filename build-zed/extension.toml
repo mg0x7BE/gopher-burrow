@@ -1,0 +1,7 @@
+id = "gopher-burrow-theme"
+name = "Gopher Burrow"
+version = "0.7.0"
+schema_version = 1
+authors = ["mg0x7BE"]
+description = "Dark theme tuned for Go and most popular languages."
+repository = "https://github.com/mg0x7BE/gopher-burrow"
