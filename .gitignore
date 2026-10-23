@@ -5,6 +5,7 @@
 /.idea/*
 !/.idea/icon.svg
 /samples/**/.idea/
+.zed/
 /samples/csharp/bin/
 /samples/csharp/obj/
 /samples/rust/target/
