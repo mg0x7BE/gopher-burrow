@@ -7,7 +7,9 @@
 
 Dark theme for JetBrains IDEs and Zed.
 
-![Gopher Burrow in GoLand](docs/screenshots/go.png)
+![Gopher Burrow in GoLand](docs/screenshots/go-goland.png)
+
+![Gopher Burrow in Zed](docs/screenshots/go-zed.png)
 
 - Colors tuned for Go and most popular languages.
 - Made for GoLand, but I've also tried it in IntelliJ IDEA, Rider, RustRover and CLion, so it should look good there too.
